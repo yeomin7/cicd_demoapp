@@ -8,3 +8,11 @@ build:
         commands:
             - pip install -r requirements.txt
             - python testing.py
+
+publish:
+    docker:
+        repo: yeomin7/cicd_demoapp
+        tag: latest
+        username: yeomin
+        password: 0131qpqp
+        email: yeomin@cisco.com 
